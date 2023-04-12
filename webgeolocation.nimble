@@ -1,8 +1,8 @@
 # Package
 
-version       = "0.1.0"
+version       = "1.0.0"
 author        = "Mark Leyva"
-description   = "A new awesome nimble package"
+description   = "Bindings to the Webgeolocation Web API"
 license       = "MIT"
 srcDir        = "src"
 
