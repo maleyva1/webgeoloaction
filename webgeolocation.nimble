@@ -9,9 +9,10 @@ srcDir        = "src"
 
 # Dependencies
 
-requires "nim >= 1.6.12"
+requires "nim >= 1.6.0"
 
 task demo, "Demo":
-    exec "nim js --mm:oc --out:tests/geotest.js -d:release --opt:size tests/geotest.nim"
+    exec "nim js --out:tests/geotest.js -d:release --opt:size tests/geotest.nim"
+    exec "python3 -m http.server --directory tests/"
 task docs, "Docs":
     exec "nim doc --backend:js --out:htmldocs/ src/webgeolocation.nim"
