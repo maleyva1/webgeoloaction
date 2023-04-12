@@ -4,6 +4,8 @@ Nim bindings for the [Geolocation Web API](https://developer.mozilla.org/en-US/d
 
 ## Basic usage
 
+The following example only works on the JS target.
+
 ```nim
 import std/strformat
 
@@ -37,3 +39,6 @@ You will need [Karax](https://github.com/karaxnim/karax) to build it.
 Run `nimble demo`. This will build a small Karax application which
 you can access at `http://localhost:8080`.
 
+## Docs
+
+Build documentation with `nim docs`
