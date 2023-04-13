@@ -32,7 +32,8 @@ else:
 The demo presented on the MDN page for the Geolocation API
 is included in the `tests/` directory.
 
-You will need [Karax](https://github.com/karaxnim/karax) to build it.
+You will need [Karax](https://github.com/karaxnim/karax) to build it
+and Python 3 to execute the `demo` task.
 
 ### Instructions
 
